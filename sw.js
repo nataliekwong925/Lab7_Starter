@@ -17,8 +17,7 @@ self.addEventListener('install', function (event) {
     'assets/components/RecipeCard.js',
     'assets/components/RecipeExpand.js',
     '/assets/styles/main.css',
-    '/favicon.ico',
-
+    '/favicon.ico'
    ];
 
    event.waitUntil(
