@@ -9,17 +9,14 @@ self.addEventListener('install', function (event) {
    * TODO - Part 2 Step 2
    * Create a function as outlined above
    */
-
-   let urlsToCache = [
-    '/',
-    '/nataliekwong925/',
-    '/nataliekwong925/index.html',
+  
+   let urlsToCache =  [
     'https://introweb.tech/assets/json/ghostCookies.json',
     'https://introweb.tech/assets/json/birthdayCake.json',
     'https://introweb.tech/assets/json/chocolateChip.json',
     'https://introweb.tech/assets/json/stuffing.json',
     'https://introweb.tech/assets/json/turkey.json',
-    'https://introweb.tech/assets/json/pumpkinPie.json',
+    'https://introweb.tech/assets/json/pumpkinPie.json'
    ];
 
    event.waitUntil(
