@@ -12,12 +12,18 @@ self.addEventListener('install', function (event) {
 
    let urlsToCache = [
     '/',
-   'https://introweb.tech/assets/json/ghostCookies.json',
-   'https://introweb.tech/assets/json/birthdayCake.json',
-   'https://introweb.tech/assets/json/chocolateChip.json',
-   'https://introweb.tech/assets/json/stuffing.json',
-   'https://introweb.tech/assets/json/turkey.json',
-   'https://introweb.tech/assets/json/pumpkinPie.json'
+    'https://introweb.tech/assets/json/ghostCookies.json',
+    'https://introweb.tech/assets/json/birthdayCake.json',
+    'https://introweb.tech/assets/json/chocolateChip.json',
+    'https://introweb.tech/assets/json/stuffing.json',
+    'https://introweb.tech/assets/json/turkey.json',
+    'https://introweb.tech/assets/json/pumpkinPie.json',
+    'assets/scripts/Router.js',
+    'assets/scripts/main.js',
+    'assets/components/RecipeCard.js',
+    'assets/components/RecipeExpand.js',
+    'assets/styles/main.css',
+    'favicon.ico'
    ];
 
    event.waitUntil(
