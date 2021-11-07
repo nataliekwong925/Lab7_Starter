@@ -13,7 +13,7 @@ self.addEventListener('install', function (event) {
    let urlsToCache = [
     '/',
     '/nataliekwong925/',
-    '/repository/index.html',
+    '/nataliekwong925/index.html',
     'https://introweb.tech/assets/json/ghostCookies.json',
     'https://introweb.tech/assets/json/birthdayCake.json',
     'https://introweb.tech/assets/json/chocolateChip.json',
